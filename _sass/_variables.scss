@@ -1,0 +1,25 @@
+// arte #132164 #c80022
+$brand-color:         #132164;
+$highlight:           lighten($brand-color, 35%);
+
+/*
+_base: body, a, a:focus, .skip-navigation
+_footnotes: .footnote color
+_post-list: .post-link color
+_search: #search__input color, focus
+*/
+$text-color:          #ece0e0;
+
+/*
+_base: .post-date
+_footnotes: .footnote border
+_masthead: .site-masthead h2
+_search: ::-webkit-input-placeholder,::-moz-placeholder ,::-ms-input-placeholder, ::-moz-placeholder {
+*/
+$muted-text-color:    #aea7a7;
+$font-family:         "EB Garamond", Garamond, "Times New Roman", serif;
+
+$on-bigphone:         375px;
+$on-tablet:           768px;
+$on-laptop:           960px;
+$on-desktop:          1200px;
