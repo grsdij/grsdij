@@ -1,22 +1,36 @@
-// arte #132164 #c80022
-$brand-color:         #132164;
-$highlight:           lighten($brand-color, 35%);
-
 /*
-_base: body, a, a:focus
-_footnotes: .footnote color
-_post-list: .post-link color
-_search: #search__input color, focus
+color
+    arte #132164 #c80022
+    background #cfbaaf #4b4c50 #a4a9aa #191e29 #3f4154 #535661 #53565a
 */
-$text-color:          #ece0e0;
 
-/*
-_base: .post-date
-_footnotes: .footnote border
-_masthead: .site-masthead h2
-_search: ::-webkit-input-placeholder,::-moz-placeholder ,::-ms-input-placeholder, ::-moz-placeholder {
-*/
-$muted-text-color:    #aea7a7;
+$background-color: #191e29;
+
+$body-color:#ffffff;
+
+$footnote-color: #292828;
+$footnote-border-color: #d6d1d1;
+$footnote-hover-background-color: #535661;
+$footnote-hover-border-color: darken(#fff3a4, 35%);
+
+$a-color:#b4b9b9;
+$a-focus-outline-color:#d8d5d5;
+
+$post-link-color:#ffffff;
+$post-date-color:#d8d5d5;
+
+$search__input-color:#ffffff;
+$search__input-focus-color:#ffffff;
+
+$site-masthead-h1-color:#ffffff;
+$site-masthead-h2-color:#d8d5d5;
+
+$search-placeholder-color:#d8d5d5;
+
+$post-h1-color: #0b0404;
+$post-p-color: #0b0404;
+$post-a-hover-color: #fff3a4;
+
 $font-family:         "EB Garamond", Garamond, "Times New Roman", serif;
 
 $on-bigphone:         375px;

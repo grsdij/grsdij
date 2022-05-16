@@ -1,6 +1,6 @@
 body {
-  background: $brand-color;
-  color: $text-color;
+  background: $background-color;
+  color: $body-color;
   font-family: $font-family;
   font-size: 1.3125em;
   line-height: 1.5;
@@ -53,11 +53,11 @@ strong {
 }
 
 a {
-  color: $text-color;
+  color: $a-color;
 }
 
 a:focus {
-  outline: 1px dashed $text-color;
+  outline: 1px dashed $a-focus-outline-color;
 }
 
 blockquote {
@@ -125,7 +125,7 @@ figcaption {
 }
 
 .post-date {
-  color: $muted-text-color;
+  color: $post-date-color;
   display: block;
   font-size: .825em;
   white-space: nowrap;

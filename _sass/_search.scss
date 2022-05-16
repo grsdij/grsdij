@@ -9,10 +9,10 @@
   border: 0;
   font: 1em $font-family;
   padding: .5em;
-  color: $text-color;
+  color: $search__input-color;
   text-align: center;
   &:focus {
-    outline: 1px dashed $text-color;
+    outline: 1px dashed $search__input-focus-color;
   }
 }
 
@@ -21,14 +21,14 @@
 }
 
 ::-webkit-input-placeholder {
-  color: $muted-text-color;
+  color: $search-placeholder-color;
 }
 ::-moz-placeholder {
-  color: $muted-text-color;
+  color: $search-placeholder-color;
 }
 :-ms-input-placeholder {
-  color: $muted-text-color;
+  color: $search-placeholder-color;
 }
 :-moz-placeholder {
-  color: $muted-text-color;
+  color: $search-placeholder-color;
 }

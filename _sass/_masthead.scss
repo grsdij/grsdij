@@ -5,6 +5,7 @@
 }
 
 .site-masthead h1 {
+  color: $site-masthead-h1-color;
   font-size: 3em;
   margin-bottom: 0;
   // title 윗 간격
@@ -17,7 +18,7 @@
 }
 
 .site-masthead h2 {
-  color: $muted-text-color;
+  color: $site-masthead-h2-color;
   font-size: 1.25em;
   margin: 0;
   padding: 0 2rem;
