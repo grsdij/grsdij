@@ -20,3 +20,12 @@ layout: post
 ## 요약문 제외
 
 <!-- excerpt_separator -->
+
+## figure 사용
+
+<figure>
+  <img alt="" src="" />
+  <figcaption>
+    캡션 내용 <a href="">링크</a> 캡션 내용 끝.
+  </figcaption>
+</figure>
