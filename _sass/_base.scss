@@ -60,6 +60,10 @@ a:focus {
   outline: 1px dashed $a-focus-outline-color;
 }
 
+p {
+  line-height: 1.65em;
+}
+
 blockquote {
   margin: 2em auto;
   opacity: .8;
