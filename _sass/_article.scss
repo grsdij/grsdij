@@ -16,7 +16,7 @@
 
 .post > h1 {
   color: $post-h1-color;
-  font-size: 2em;
+  font-size: 1.75em;
   max-width: 48rem;
   padding: 2em 1em;
   text-align: center;
@@ -24,6 +24,7 @@
 
 .post p {
   color: $post-p-color;
+  font-size: 0.85em;
   text-align: justify;
   text-indent: 1.5em;
   text-justify: inter-word;
