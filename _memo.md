@@ -37,3 +37,9 @@ layout: post
 ## 유튜브 삽입
 
 <iframe width="929" height="480" src="https://www.youtube.com/embed/zKij45MIuZE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## 이미지 삽입
+
+<img data-action="zoom" src='{{ "/assets/images/test.jpeg" | relative_url }}' alt="TEST">
+
+![TEST]({{"/assets/images/test.jpeg"| relative_url}})
