@@ -6,8 +6,13 @@ title: About
 글쓰기는 정말 어렵군요!
 
 <figure>
-  <img alt="grsdij" src="https://lh3.googleusercontent.com/eoz8UuB8a1Wo1H8XQdOPC8Ruj9RTrsbn1eIJkHOuPhuTrQlkW0dR6I0NDrRrtigwLHiu-OodAzgFUfA-kzemjCuddpxZNDb4pWM6ol1h8Rzx7MbFKCyFsz4weGCZOCoY4UJEzvFVL4hzat6wBiGdDhMZt4W5XKlx4dYEdo9qkGkNXl0J4KadCnTr7cUcQ9agzhSvlPXW4mvfj54Ahlm8R_YG6LjrxBVrFQHY8nYYJ4UJRUB5DvohWUnY_9qFWSxzbULhhFT3flJNx4fXJAE_2wTTmo1INrEC8smFLx-1oJ4GYZz6_rNlMfuuESWiGTk4un2ZJOIrEqNKzfBCi4VAS0EHe5FNZlBEL6ugFnQ2VQDRbYxOGxnkHNIZG7Hwo3DLVJs8AVsk_V7y_E18tZc1MlP0mutG5TXSPJsxYDd615_wx792G8yc3kISaYXXwrmJSuYKxpd-ErhtaaATtJ51Ii4IMSIvraCp5CLI5ZJ1UiNB1dJLm8biDscMKwQVGPiXjZD1jeiLE_MDuustUlEoY_Kg6boIHVK064KwrFR5GWl_muml-tRJmnPCGpuVXPckyhsuR55VeTmMxqkyFZODNngUQZD7s5TwFmbR_SeEjl8HZK_92s2GKLQB_fUW1_fL-6YWolbQNxZkpb4MY2EmHCFiZb2ltTVwqr9S7lGghIZmeFCfS8gtm7ZfX7QdKT3q8YcHRJYGPF0mbkG-AvIYRKVX1Y5nZaiaHnAHu4CAG0Biq12B500JFt2Pj4_gsi65x-4c1sHbjikBaIHCbB1GB8woyGMnIlenyR9tnUeyH4mL8GiXDyUDkX39qMsIIiOMa3gT3y5Ctm3M2K6uPT65swPQ-9RDq5vKzW_6fUU2tXHcGOflQaNxO85h5jVhI8Ki708tpiBnnMs=w2116-h1002-no?authuser=0" />
+
   <figcaption>
-    이끼에 부서지는 햇살 <a href="https://www.youtube.com/channel/UCSNYDJUN-9dAT5fMzgyFOAA">@그럴수도있지</a>
+
+  <img data-action="zoom" src='{{ "/assets/images/moss_in_sunshine.jpeg" | relative_url }}' alt="moss in sunshine">
+
+  이끼에 부서지는 햇살 <a href="https://www.youtube.com/channel/UCSNYDJUN-9dAT5fMzgyFOAA">@그럴수도있지</a>
+
   </figcaption>
+
 </figure>
