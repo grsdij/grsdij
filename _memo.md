@@ -43,3 +43,34 @@ layout: post
 <img data-action="zoom" src='{{ "/assets/images/test.jpeg" | relative_url }}' alt="TEST">
 
 ![TEST]({{"/assets/images/test.jpeg"| relative_url}})
+
+## 폰트 관련
+
+@font-face {
+  font-family: 'Pretendard Varialbe';
+  font-weight: 45 920;
+  font-style: normal;
+  font-display: block;
+  src: local('Pretendard'), url('#{$asset_url}/fonts/PretendardVariable.woff2') format('woff2-variations');
+}
+
+@font-face {
+  font-family: 'SpoqaHanSansNeo-Light';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Light.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'IBMPlexSansKR-Light';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Light.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MinSans-Light';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/MinSans-Light.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}

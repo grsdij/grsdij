@@ -1,9 +1,16 @@
+@font-face {
+	font-family: 'Pretendard';
+	font-weight: 300;
+	font-display: block;
+	src: local('Pretendard Light'), url('#{$asset_url}/fonts/Pretendard-Light.woff2') format('woff2'), url('./woff/Pretendard-Light.woff') format('woff');
+}
+
 /* eb-garamond-regular - latin */
 @font-face {
   font-family: 'EB Garamond';
   font-style: normal;
   font-weight: 400;
-  font-display: auto;
+  font-display: block;
   src: url('#{$asset_url}/fonts/eb-garamond-v9-latin-regular.eot'); /* IE9 Compat Modes */
   src: local('EB Garamond Regular'), local('EBGaramond-Regular'),
        url('#{$asset_url}/fonts/eb-garamond-v9-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
