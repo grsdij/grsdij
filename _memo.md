@@ -46,31 +46,51 @@ layout: post
 
 ## 폰트 관련
 
-@font-face {
-  font-family: 'Pretendard Varialbe';
-  font-weight: 45 920;
-  font-style: normal;
-  font-display: block;
-  src: local('Pretendard'), url('#{$asset_url}/fonts/PretendardVariable.woff2') format('woff2-variations');
-}
+otf to woff2: https://kombu.kanejaku.org/
+일반: Pretendard
+눈누: IBMPlexSansKR, SpoqaHanSansNeo, MinSans
 
+fallback: -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif
+// "Times New Roman", serif
+
+1. @font-face + variable 지정
+
+in _font.scss
 @font-face {
-  font-family: 'SpoqaHanSansNeo-Light';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Light.woff') format('woff');
+  font-family: 'name';
+  src: url('url') format('woff');
+  or src: local('name'), url('#{$asset_url}/fonts/name.woff2') format('woff2-variations');
   font-weight: normal;
   font-style: normal;
 }
 
-@font-face {
-  font-family: 'IBMPlexSansKR-Light';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Light.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
+in _variables.scss
+$font-family: "name";
 
+2. import in variable
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+$font-family: Pretendard;
+
+3. Adobe fonts
+
+in default.html's <head>
+<script>
+  (function(d) {
+    var config = {
+      kitId: 'crv1tlb',
+      scriptTimeout: 3000,
+      async: true
+    },
+    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+  })(document);
+</script>
+
+in _variables.scss
+$font-family: "name";
+
+in _fonts.scss
 @font-face {
-  font-family: 'MinSans-Light';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/MinSans-Light.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
+  font-family: "sandoll-jebi2", sans-serif;
+  font-weight: 300;
+  font-style: block;
 }
