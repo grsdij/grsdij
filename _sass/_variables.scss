@@ -33,16 +33,8 @@ $post-h1-color: #0b0404;
 $post-p-color: #0b0404;
 $post-a-hover-color: #fff3a4;
 
-$body-font-family: "Pretendard",  -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
-$deco-font-family: "EB Garamond", Garamond, "Times New Roman", serif;
-
-// $font-family: "SpoqaHanSansNeo-Light";
-// $font-family: "IBMPlexSansKR-Light";
-// $font-family: "MinSans-Light";
-
-// https://noonnu.cc/font_page/694
-// @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
-// $font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
+$body-font-family: "HanSerif", -apple-system, BlinkMacSystemFont, system-ui, san-serif;
+$deco-font-family: "HanSerif", -apple-system, BlinkMacSystemFont, system-ui, san-serif;
 
 $on-bigphone:         375px;
 $on-tablet:           768px;
